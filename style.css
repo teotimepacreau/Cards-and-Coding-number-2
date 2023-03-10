@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Picnic-Regular";
+    src: url("PicNic-Regular.woff2") format("woff2");
+   }
+   
+   body{
+     display: flex;
+   }
+   
+   .card {
+     margin: auto; /* centrer la carte au milieu de la page, nécessaire d'avoir mis body avant */
+     margin-top: 100px;
+     width: 300px;
+     height: 450px;
+     border: 7px solid;
+     border-color: black;
+     border-radius: 20px; /* bord arrondi */
+     background-color: white;
+     display: flex;
+     transform-style: preserve-3d;
+     transform: perspective(1000px);
+   background-color: #ffffff;
+       opacity: 1;
+       background-image: radial-gradient(circle at center center, #e18416, #ffffff), repeating-radial-gradient(circle at center center, #e18416, #e18416, 20px, transparent 40px, transparent 20px);
+       background-repeat: no-repeat;
+       background-blend-mode: exclusion;
+   }
+   
+   .card-title {
+     font-family: "Picnic-Regular";
+     position: absolute;
+     text-align: center;
+     margin: auto;
+     left: 0;
+     right: 0;
+     top: 20px;
+     font-size: 40px;
+     color: white;
+   }
+   
+   #extension {
+     font-family: "Picnic-Regular";
+     font-size: 25px;
+     position: absolute;
+     display: flex;
+     bottom: 10px;
+     color: white;
+     left: 20px;
+   }
+   
+   #numero {
+     font-family: "Picnic-Regular";
+     font-size: 25px;
+     position: absolute;
+     bottom: 10px;
+     color: white;
+     right: 20px;
+   }
+   
+   
