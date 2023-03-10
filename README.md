@@ -1,6 +1,6 @@
 # Cards & Coding n°2 : The Reverse
 Re-creation and iteration from the [@nicolastilly](https://github.com/nicolastilly) project Cards &amp; Coding, built with HTML, CSS, Vanilla-tilt.JS
-![the-deep-hole-demo](https://github.com/teotimepacreau/Cards-and-Coding-number1/blob/main/The-deep-hole.gif)
+![the-reversed-demo]https://github.com/teotimepacreau/Cards-and-Coding-number-2/blob/main/The-reversed.gif)
 
 # Project goal
 
